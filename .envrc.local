@@ -1,0 +1,1 @@
+export GOOGLE_APPLICATION_CREDENTIALS="$HOME/.config/gcloud/11thdice_adc.json"

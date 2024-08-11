@@ -1,0 +1,15 @@
+version: '3'
+
+tasks:
+  build:
+    dir: src
+    sources:
+      - src/*
+    cmds:
+      - go build -o ../bin/app
+  run:
+    dir: src
+    sources:
+      - src/*
+    cmds:
+      - go run .
